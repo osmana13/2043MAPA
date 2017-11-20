@@ -1,0 +1,38 @@
+.panellink li {
+    background-color: #111 !important;
+    color: white !important;
+}
+
+.panellink h1 {
+    color: white !important;
+    text-align: center !important;
+}
+
+.body {
+    font-family: 'PT Sans', sans-serif;
+    color: #333333;
+}
+.bluebox {
+    text-align: center;
+    background-color: #7C92E2;
+    height: 50%;
+    clear: right;
+
+    
+}
+.redbox{
+    text-align: center;
+    background-color: #E25A5A;
+    height: 50%;
+    clear:right;
+
+}
+.vertical-align{
+    position: relative;
+    top: 25%;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+    font-size: 40px;
+    color: #333333;
+}
