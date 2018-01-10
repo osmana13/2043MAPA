@@ -21,7 +21,7 @@
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title> HAVEN </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-              <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="logo.png"></a>
+              <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="images/logo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -101,13 +101,13 @@
             <div class="row">
                 <div class="col-lg-12 text-center"> <!! got the contact template from bootstrap>
                     <h1 class="section-heading">
-                    <h4 class="section-subheading text-muted">If you have any inquiries, feel free to contact the team and we will get back to you as soon as possible. </h4>
+                    <h4 class="section-subheading text-muted"> Place your contact details below and we will get back to you within the next 10 mins whether you need to seek information or need shelter. We are here to help.</h4>
                 </div>
             </div>
                 <br>
             <div class="row">
-                <div class="col-lg-12">
-
+                <div class="lol"> 
+                  
                             <form name="contactform" method="post" action="sendform.php">
                             <table width="500px">
                             <tr>
@@ -160,10 +160,12 @@
 
                     
                    
-                    
+                  
                    
                     </div>
+                    
                             </div>
+        </div>
     
      <!-- Footer -->
     <footer>

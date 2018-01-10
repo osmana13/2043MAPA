@@ -21,7 +21,7 @@
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>HAVEN</title>
 
     
     <!-- Custom Fonts -->
@@ -93,11 +93,11 @@
     </nav>
     
     <div class="banner" style="padding-bottom:50px;"> 
-        <h1> ABOUT </h1>
-<h3> SOOO WHAT IS HAVEAN ABOUT? </h3>      
+        <h1 style="text-align:center;"> HAVEN </h1>
+<h3 style="text-align:center;">  WHAT IS HAVEN ABOUT? </h3>      
         
- <p> 
-BLAH BLAH BLAH
+ <p style="text-align:center;"> 
+With the risk of terrorism and disaster as prevalent as always, it can often be difficult to feel truly safe in todays society. In the case of such events, very few people will actually know what to do to have the best chance for survival. Because of this, as a group we wanted to create a platform that would allow people to better work together to ensure safety and security within their communities. ‘Haven’, our project came about because of these feelings. Haven is an application/ Web service designed to help people in need find help, whether through food, water, shelter, medical supplies or just someone to talk to
        
         </p> 
          </div>

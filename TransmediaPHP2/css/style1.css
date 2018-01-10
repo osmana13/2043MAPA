@@ -240,3 +240,12 @@ $stroke-step: 7%;
     100% { top:100px}
 }
 
+.lol {
+    
+    margin: auto;
+    width: 60%;
+    border: 3px solid #FFA500;
+    padding: 10px;
+        
+}
+

@@ -22,8 +22,8 @@
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!! here i have used google fonts >
     <style>
       .map {
-        height: 600px;
-        width: 1250px;
+        height: 700px;
+        width: 1300px;
       }
     </style>
     <script src="https://openlayers.org/en/v4.4.2/build/ol.js" type="text/javascript"></script>
@@ -34,7 +34,7 @@
 
 
  <link rel="stylesheet" href="https://openlayers.org/en/v4.4.2/css/ol.css" type="text/css">
-    <title>Agency - Start Bootstrap Theme</title> <!! got the theme from bootstrap>
+    <title>HAVEN</title> <!! got the theme from bootstrap>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">   
@@ -69,7 +69,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="logo.png"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="images/logo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -104,8 +104,12 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-   <div id="map" class="map"></div>
+    
+    <p> current coventry locations we are based.</p>
+    
+<br>
+   <body>
+    <div id="map" class="map"></div>
     <script type="text/javascript">
       var coventry = [-1.501, 52.406]; // longitude first, then latitude
       // since we are using OSM, we have to transform the coordinates...
@@ -114,38 +118,42 @@
       var cov = new ol.Feature({
         geometry: new ol.geom.Point(ol.proj.fromLonLat([-1.504, 52.406]))
       });
+     var cov2 = new ol.Feature({
+        geometry: new ol.geom.Point(ol.proj.fromLonLat([-1.501, 52.406]))
+      });
+        
+   
+        
+        
       cov.setStyle(new ol.style.Style({
         image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
 //          color: '#8959A8',
-          src: 'data/gm.png'
-      }))
-      }));
+          src: 'images/2.jpg' }))  }));
+
+          cov2.setStyle(new ol.style.Style({
+            image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+        //          color: '#8959A8',
+              src: 'images/2.jpg' }))  }));
+        
+
       var vectorSource = new ol.source.Vector({
-        features: [cov]
+        features: [cov, cov2]
       });
       var vectorLayer = new ol.layer.Vector({
         source: vectorSource
       });
+      
       var rasterLayer = new ol.layer.Tile({
         source: new ol.source.TileJSON({
         url: 'https://api.tiles.mapbox.com/v3/mapbox.geography-class.json?secure',
       })
     });
-var key = 'sk.eyJ1Ijoicm9iY2FubmluZyIsImEiOiJjajloczU5NW0wMTBmMzNtaTlhdTAwM2RqIn0.iJho8EdYMBsLfl6XstILcw';
 var map = new ol.Map({
   layers: [
-  new ol.layer.VectorTile({
-           source: new ol.source.VectorTile({
-             attributions: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> ' +
-               '© <a href="https://www.openstreetmap.org/copyright">' +
-               'OpenStreetMap contributors</a>',
-             format: new ol.format.MVT(),
-             url: 'https://{a-d}.tiles.mapbox.com/v4/mapbox.mapbox-streets-v6/' +
-                 '{z}/{x}/{y}.vector.pbf?access_token=' + key
-           }),
-           style: createMapboxStreetsV6Style(ol.style.Style, ol.style.Fill, ol.style.Stroke, ol.style.Icon, ol.style.Text)
-         }), vectorLayer
-       ],
+    new ol.layer.Tile({
+      source: new ol.source.OSM()
+    }), vectorLayer
+  ],
   target: 'map',
   view: new ol.View({
     center: coventryWebMercator,
@@ -153,6 +161,7 @@ var map = new ol.Map({
   })
 });
     </script>
+  </body>
 
     
     

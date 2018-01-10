@@ -21,7 +21,7 @@
      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>HAVEN</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +56,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="logo.png"></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="logo" src="images/logo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -92,35 +92,38 @@
         <!-- /.container-fluid -->
     </nav>
     
-    <div class="banner"> <h1 style="margin-bottom:50px;"> TEAM </h1></div>
+    <div class="banner"> <h1 style="margin-bottom:50px;"> MEET THE TEAM </h1></div>
     
-    <h2 style="text-align:center;"> HAVEN TEAM </h2>
+    <h2 style="text-align:center;"> JACK BOYLE AND ROBERTS BUDIGINS  </h2>
+     
+ <h5 style="text-align:center;"> Rest of the team; </h5>
+     
     
-
+<hr>
 
     <div class="container" style="text-align:center;"> <!!bootstrap bootstrap and hoover with the images, edited on css>
   <div class="row">
     <div class="col-md-3">
         <img class="team" src="images/ayan"/>
         
-      <h1>Ayan</h1>
+      <h1>AYAN</h1>
     </div>
     <div class="col-md-3">
         <img class="team" src="images/ali"/>
         
-      <h1>Ali</h1>
-        <p>Ldfnjdskfjdshfs</p>
+      <h1>ALI</h1>
+        
     </div>
     <div class="col-md-3">
         <img class="team" src="images/sam"/>
         
-      <h1>Sam</h1>
+      <h1>SAM</h1>
         
     </div>
       <div class="col-md-3">
         <img class="team" src="images/matt"/>
           
-      <h1>Matt</h1>
+      <h1>MATT</h1>
           
     </div>
   </div>

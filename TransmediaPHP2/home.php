@@ -42,10 +42,10 @@
     <div class="circle5"><a href="map.php" style="color:white;text-decoration:none;">
         MAP </a>     
     </div>     
-    <div class="circle5"><a href="contact.php" style="color:white;text-decoration:none;">
+    <div class="circle6"><a href="contact.php" style="color:white;text-decoration:none;">
         CONTACT </a>     
     </div>       
-    <div class="circle6"><a href="logout.php" style="color:white;text-decoration:none;">
+    <div class="circle7"><a href="logout.php" style="color:white;text-decoration:none;">
         LOGOUT </a>     
     </div>
        
